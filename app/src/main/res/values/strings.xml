@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AndroidShortcuts</string>
+    <string name="shortcut_short_label_about_us">About</string>
+    <string name="shortcut_long_label_about_us">About Us</string>
+    <string name="shortcut_disabled_message_about_us">About Us shortcut is disabled.</string>
+
+    <string name="main_activity_title">Shortcuts Demo</string>
+    <string name="about_us_activity_title">About Us</string>
+    <string name="item_detail_activity_title">Item Details</string>
+    <string name="item_id_placeholder">Item ID: %s</string>
+    <string name="add_dynamic_shortcut">Add Dynamic Shortcut</string>
+    <string name="remove_dynamic_shortcut">Remove Last Dynamic Shortcut</string>
+    <string name="remove_all_dynamic_shortcuts">Remove All Dynamic Shortcuts</string>
+    <string name="pin_shortcut_button">Pin Item %d Shortcut</string>
+</resources>

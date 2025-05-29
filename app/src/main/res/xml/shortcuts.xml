@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="about_us"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut"
+        android:shortcutShortLabel="@string/shortcut_short_label_about_us"
+        android:shortcutLongLabel="@string/shortcut_long_label_about_us"
+        android:shortcutDisabledMessage="@string/shortcut_disabled_message_about_us">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.sample.androidshortcuts"
+            android:targetClass="com.sample.androidshortcuts.AboutUsActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

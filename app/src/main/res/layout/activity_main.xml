@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_activity_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnAddDynamicShortcut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_dynamic_shortcut"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnRemoveDynamicShortcut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remove_dynamic_shortcut"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnRemoveAllDynamicShortcuts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remove_all_dynamic_shortcuts"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pin Specific Item Shortcuts:"
+        android:textStyle="italic"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnPinItem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pin_shortcut_button"
+        android:tag="1"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnPinItem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pin_shortcut_button"
+        android:tag="2"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>
